@@ -1,0 +1,14 @@
+<map id="include/graphics/sfml/class/Class_SFML.hpp" name="include/graphics/sfml/class/Class_SFML.hpp">
+<area shape="rect" id="node1" title="Contain Ncurse Class." alt="" coords="508,5,676,47"/>
+<area shape="rect" id="node2" href="$_class___scene___s_f_m_l_8hpp.html" title="Contain scene graphic for render." alt="" coords="505,95,679,121"/>
+<area shape="rect" id="node3" href="$_i_graphic_8hpp.html" title="Contain interface graphic." alt="" coords="223,169,327,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="351,169,497,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="522,169,662,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="687,169,767,196"/>
+<area shape="rect" id="node12" title=" " alt="" coords="791,169,868,196"/>
+<area shape="rect" id="node4" href="$_class___scene_8hpp.html" title="Content scene core for a game." alt="" coords="209,244,340,271"/>
+<area shape="rect" id="node5" href="$core__define_8hpp.html" title=" " alt="" coords="5,319,131,345"/>
+<area shape="rect" id="node6" href="$core__event_8hpp.html" title=" " alt="" coords="155,319,277,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="302,319,365,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="389,319,448,345"/>
+</map>

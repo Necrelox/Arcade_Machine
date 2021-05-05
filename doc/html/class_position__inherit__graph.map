@@ -1,0 +1,5 @@
+<map id="Position" name="Position">
+<area shape="rect" id="node1" title="contain x and y position of one element" alt="" coords="54,5,129,32"/>
+<area shape="rect" id="node2" href="$class_entity.html" title="contain all information of one element" alt="" coords="5,80,65,107"/>
+<area shape="rect" id="node3" href="$class_entity___graphic.html" title=" " alt="" coords="90,80,207,107"/>
+</map>

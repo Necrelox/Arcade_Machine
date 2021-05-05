@@ -1,0 +1,500 @@
+\hypertarget{class_s_f_m_l}{}\doxysection{S\+F\+ML Class Reference}
+\label{class_s_f_m_l}\index{SFML@{SFML}}
+
+
+Contain all graphic function.  
+
+
+
+
+{\ttfamily \#include $<$Class\+\_\+\+S\+F\+M\+L.\+hpp$>$}
+
+
+
+Inheritance diagram for S\+F\+ML\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for S\+F\+ML\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_s_f_m_l_a38eac3826e67b2dc189d291d47c59394}{S\+F\+ML}} ()
+\begin{DoxyCompactList}\small\item\em Constructor of child class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_s_f_m_l_a126a0eafbc9e2824e667d5a12156457e}{$\sim$\+S\+F\+ML}} ()
+\begin{DoxyCompactList}\small\item\em destructor child class \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_s_f_m_l_ac601591273ef2a15b1331c279683e969}{initialize\+\_\+window}} (short window\+\_\+x, short window\+\_\+y, std\+::string name) override
+\begin{DoxyCompactList}\small\item\em init window in \mbox{\hyperlink{class_s_f_m_l}{S\+F\+ML}} class \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_f_m_l_a128f1ed813d29b03bd34dbe966d5e24d}{window\+Is\+Open}} () override
+\begin{DoxyCompactList}\small\item\em True if window open else False. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_f_m_l_a91144123f27a97b0f3f14effc7d69c21}{close\+Window}} () override
+\begin{DoxyCompactList}\small\item\em close window \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_f_m_l_a7800cf4a9ac2a2b65224694a3e1de147}{set\+\_\+\+Title}} (std\+::string title)
+\begin{DoxyCompactList}\small\item\em set new Title \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_f_m_l_a3f7ff253fc2c72c2ae3eb02f97bc2ea9}{display}} () override
+\begin{DoxyCompactList}\small\item\em display window and obj (sprites, text, shape...) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_s_f_m_l_a38fed9b95e51445b9972624f81aef74f}{get\+\_\+event}} () override
+\begin{DoxyCompactList}\small\item\em Get Event of Window make by user. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_position}{Position}} $\ast$ \mbox{\hyperlink{class_s_f_m_l_a165894353c4ef22bada016974414365d}{get\+Mouse\+\_\+position}} () override
+\begin{DoxyCompactList}\small\item\em Get mouse position. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_s_f_m_l_ab7945bc7376ad6416070281c94adcd90}{get\+\_\+name\+\_\+graphic}} () const override
+\begin{DoxyCompactList}\small\item\em Get name of the graphic library. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_f_m_l_a08293a4d3473bdecdd196667f1fd872c}{in\+\_\+terminal}} () const override
+\begin{DoxyCompactList}\small\item\em determine if this class render in a window or in a terminal \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_f_m_l_a73f37e4044dbf100fd3b8b71f8c03804}{init\+\_\+scene}} (\mbox{\hyperlink{class_scene}{Scene}} $\ast$scene) override
+\begin{DoxyCompactList}\small\item\em Init all element of scene game in sfml lib. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_f_m_l_a91a7ccbc500948adbf303d0e04d37303}{update\+\_\+scene}} (\mbox{\hyperlink{class_scene}{Scene}} $\ast$scene) override
+\begin{DoxyCompactList}\small\item\em update all element of scene game in graphic lib \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_f_m_l_a75f5b0a2bd7c77bd4bbd4db6623c20f4}{clear\+\_\+graphical\+\_\+scene}} () override
+\begin{DoxyCompactList}\small\item\em Clear list of render. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Contain all graphic function. 
+
+, \mbox{\hyperlink{class_component_window}{Component\+Window}}, \mbox{\hyperlink{class_component_event}{Component\+Event}}, \mbox{\hyperlink{class_component_image}{Component\+Image}} Class 
+
+Definition at line 68 of file Class\+\_\+\+S\+F\+M\+L.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_s_f_m_l_a38eac3826e67b2dc189d291d47c59394}\label{class_s_f_m_l_a38eac3826e67b2dc189d291d47c59394}} 
+\index{SFML@{SFML}!SFML@{SFML}}
+\index{SFML@{SFML}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{SFML()}{SFML()}}
+{\footnotesize\ttfamily S\+F\+M\+L\+::\+S\+F\+ML (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor of child class. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Definition at line 25 of file S\+F\+M\+L.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a126a0eafbc9e2824e667d5a12156457e}\label{class_s_f_m_l_a126a0eafbc9e2824e667d5a12156457e}} 
+\index{SFML@{SFML}!````~SFML@{$\sim$SFML}}
+\index{````~SFML@{$\sim$SFML}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{$\sim$SFML()}{~SFML()}}
+{\footnotesize\ttfamily S\+F\+M\+L\+::$\sim$\+S\+F\+ML (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destructor child class 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Definition at line 30 of file S\+F\+M\+L.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_s_f_m_l_a75f5b0a2bd7c77bd4bbd4db6623c20f4}\label{class_s_f_m_l_a75f5b0a2bd7c77bd4bbd4db6623c20f4}} 
+\index{SFML@{SFML}!clear\_graphical\_scene@{clear\_graphical\_scene}}
+\index{clear\_graphical\_scene@{clear\_graphical\_scene}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{clear\_graphical\_scene()}{clear\_graphical\_scene()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+::clear\+\_\+graphical\+\_\+scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Clear list of render. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+10/04/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_adfc95dbf96e293006a02e7f30f386f2b}{I\+Graphic}}.
+
+
+
+Definition at line 107 of file S\+F\+M\+L\+\_\+scene\+Handle.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a91144123f27a97b0f3f14effc7d69c21}\label{class_s_f_m_l_a91144123f27a97b0f3f14effc7d69c21}} 
+\index{SFML@{SFML}!closeWindow@{closeWindow}}
+\index{closeWindow@{closeWindow}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{closeWindow()}{closeWindow()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+::close\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+close window 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a40bc46908461eae59ecc74f9a81a6aa6}{I\+Graphic}}.
+
+
+
+Definition at line 10 of file S\+F\+M\+L\+\_\+window.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a3f7ff253fc2c72c2ae3eb02f97bc2ea9}\label{class_s_f_m_l_a3f7ff253fc2c72c2ae3eb02f97bc2ea9}} 
+\index{SFML@{SFML}!display@{display}}
+\index{display@{display}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+::display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+display window and obj (sprites, text, shape...) 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_ac35fb2859d6a753879b9befdafca3a74}{I\+Graphic}}.
+
+
+
+Definition at line 35 of file S\+F\+M\+L\+\_\+display.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a38fed9b95e51445b9972624f81aef74f}\label{class_s_f_m_l_a38fed9b95e51445b9972624f81aef74f}} 
+\index{SFML@{SFML}!get\_event@{get\_event}}
+\index{get\_event@{get\_event}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{get\_event()}{get\_event()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+::get\+\_\+event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get Event of Window make by user. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+enum of event 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a1b477346a4f40c506cda2b9f893c2088}{I\+Graphic}}.
+
+
+
+Definition at line 20 of file S\+F\+M\+L\+\_\+event\+\_\+handle.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_ab7945bc7376ad6416070281c94adcd90}\label{class_s_f_m_l_ab7945bc7376ad6416070281c94adcd90}} 
+\index{SFML@{SFML}!get\_name\_graphic@{get\_name\_graphic}}
+\index{get\_name\_graphic@{get\_name\_graphic}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{get\_name\_graphic()}{get\_name\_graphic()}}
+{\footnotesize\ttfamily std\+::string S\+F\+M\+L\+::get\+\_\+name\+\_\+graphic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get name of the graphic library. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+name of library 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_aff486d617de779cfadf18ecd6fabef34}{I\+Graphic}}.
+
+
+
+Definition at line 20 of file S\+F\+M\+L.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a165894353c4ef22bada016974414365d}\label{class_s_f_m_l_a165894353c4ef22bada016974414365d}} 
+\index{SFML@{SFML}!getMouse\_position@{getMouse\_position}}
+\index{getMouse\_position@{getMouse\_position}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{getMouse\_position()}{getMouse\_position()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_position}{Position}} $\ast$ S\+F\+M\+L\+::get\+Mouse\+\_\+position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get mouse position. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_position}{Position}} class with x and y mouse 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a667b7f09b2a01e1b118a781a068dde91}{I\+Graphic}}.
+
+
+
+Definition at line 10 of file S\+F\+M\+L\+\_\+event\+\_\+handle.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a08293a4d3473bdecdd196667f1fd872c}\label{class_s_f_m_l_a08293a4d3473bdecdd196667f1fd872c}} 
+\index{SFML@{SFML}!in\_terminal@{in\_terminal}}
+\index{in\_terminal@{in\_terminal}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{in\_terminal()}{in\_terminal()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+::in\+\_\+terminal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+determine if this class render in a window or in a terminal 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+true if the render is in terminal else false 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a5f19da56e36a644a29096a13baffabff}{I\+Graphic}}.
+
+
+
+Definition at line 15 of file S\+F\+M\+L.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a73f37e4044dbf100fd3b8b71f8c03804}\label{class_s_f_m_l_a73f37e4044dbf100fd3b8b71f8c03804}} 
+\index{SFML@{SFML}!init\_scene@{init\_scene}}
+\index{init\_scene@{init\_scene}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{init\_scene()}{init\_scene()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+::init\+\_\+scene (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} $\ast$}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Init all element of scene game in sfml lib. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_scene}{Scene}}} & of core game \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_adcabdefd5bf0c0a44aba2c4299f75856}{I\+Graphic}}.
+
+
+
+Definition at line 35 of file S\+F\+M\+L\+\_\+scene\+Handle.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_ac601591273ef2a15b1331c279683e969}\label{class_s_f_m_l_ac601591273ef2a15b1331c279683e969}} 
+\index{SFML@{SFML}!initialize\_window@{initialize\_window}}
+\index{initialize\_window@{initialize\_window}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{initialize\_window()}{initialize\_window()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+::initialize\+\_\+window (\begin{DoxyParamCaption}\item[{short}]{window\+\_\+x,  }\item[{short}]{window\+\_\+y,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+init window in \mbox{\hyperlink{class_s_f_m_l}{S\+F\+ML}} class 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em window\+\_\+x} & Width of window \\
+\hline
+\mbox{\texttt{ in}}  & {\em window\+\_\+y} & Height of window \\
+\hline
+\mbox{\texttt{ in}}  & {\em name} & Title of the window\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+negative number if they was a error 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a8f360ecdbb688c8327361e3a8396407c}{I\+Graphic}}.
+
+
+
+Definition at line 25 of file S\+F\+M\+L\+\_\+window.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a7800cf4a9ac2a2b65224694a3e1de147}\label{class_s_f_m_l_a7800cf4a9ac2a2b65224694a3e1de147}} 
+\index{SFML@{SFML}!set\_Title@{set\_Title}}
+\index{set\_Title@{set\_Title}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{set\_Title()}{set\_Title()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+::set\+\_\+\+Title (\begin{DoxyParamCaption}\item[{std\+::string}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+set new Title 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+10/04/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em title} & new title for set \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a22c88189138fe8465bbaa486dc867391}{I\+Graphic}}.
+
+
+
+Definition at line 20 of file S\+F\+M\+L\+\_\+window.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a91a7ccbc500948adbf303d0e04d37303}\label{class_s_f_m_l_a91a7ccbc500948adbf303d0e04d37303}} 
+\index{SFML@{SFML}!update\_scene@{update\_scene}}
+\index{update\_scene@{update\_scene}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{update\_scene()}{update\_scene()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+::update\+\_\+scene (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} $\ast$}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+update all element of scene game in graphic lib 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & of game \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a8580148acc576d17840f4dfd7f3e2361}{I\+Graphic}}.
+
+
+
+Definition at line 79 of file S\+F\+M\+L\+\_\+scene\+Handle.\+cpp.
+
+\mbox{\Hypertarget{class_s_f_m_l_a128f1ed813d29b03bd34dbe966d5e24d}\label{class_s_f_m_l_a128f1ed813d29b03bd34dbe966d5e24d}} 
+\index{SFML@{SFML}!windowIsOpen@{windowIsOpen}}
+\index{windowIsOpen@{windowIsOpen}!SFML@{SFML}}
+\doxysubsubsection{\texorpdfstring{windowIsOpen()}{windowIsOpen()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+::window\+Is\+Open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+True if window open else False. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_graphic_a4566405ede73b317e3120e902510a76b}{I\+Graphic}}.
+
+
+
+Definition at line 15 of file S\+F\+M\+L\+\_\+window.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/graphics/sfml/class/\mbox{\hyperlink{_class___s_f_m_l_8hpp}{Class\+\_\+\+S\+F\+M\+L.\+hpp}}\item 
+graphics/sfml/events/\mbox{\hyperlink{_s_f_m_l__event__handle_8cpp}{S\+F\+M\+L\+\_\+event\+\_\+handle.\+cpp}}\item 
+graphics/sfml/\mbox{\hyperlink{_s_f_m_l_8cpp}{S\+F\+M\+L.\+cpp}}\item 
+graphics/sfml/\mbox{\hyperlink{_s_f_m_l__scene_handle_8cpp}{S\+F\+M\+L\+\_\+scene\+Handle.\+cpp}}\item 
+graphics/sfml/window/\mbox{\hyperlink{_s_f_m_l__display_8cpp}{S\+F\+M\+L\+\_\+display.\+cpp}}\item 
+graphics/sfml/window/\mbox{\hyperlink{_s_f_m_l__window_8cpp}{S\+F\+M\+L\+\_\+window.\+cpp}}\end{DoxyCompactItemize}

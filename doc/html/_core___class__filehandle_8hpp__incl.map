@@ -1,0 +1,12 @@
+<map id="include/core/class/Core_Class_filehandle.hpp" name="include/core/class/Core_Class_filehandle.hpp">
+<area shape="rect" id="node1" title="Contain a handle class of library." alt="" coords="175,5,372,47"/>
+<area shape="rect" id="node2" href="$core__define_8hpp.html" title=" " alt="" coords="5,244,131,271"/>
+<area shape="rect" id="node3" href="$_i_graphic_8hpp.html" title="Contain interface graphic." alt="" coords="159,95,263,121"/>
+<area shape="rect" id="node8" href="$_i_games_8hpp.html" title="Contain interface game." alt="" coords="287,95,387,121"/>
+<area shape="rect" id="node10" title=" " alt="" coords="412,95,497,121"/>
+<area shape="rect" id="node4" href="$_class___scene_8hpp.html" title="Content scene core for a game." alt="" coords="157,169,288,196"/>
+<area shape="rect" id="node5" href="$core__event_8hpp.html" title=" " alt="" coords="155,244,277,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="302,244,365,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="389,244,448,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="421,169,499,196"/>
+</map>

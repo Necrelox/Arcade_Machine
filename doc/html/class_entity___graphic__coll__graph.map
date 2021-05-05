@@ -1,0 +1,5 @@
+<map id="Entity_Graphic" name="Entity_Graphic">
+<area shape="rect" id="node1" title=" " alt="" coords="21,80,138,107"/>
+<area shape="rect" id="node2" href="$class_scale.html" title="contain x and y scale of one element" alt="" coords="5,5,63,32"/>
+<area shape="rect" id="node3" href="$class_position.html" title="contain x and y position of one element" alt="" coords="87,5,162,32"/>
+</map>

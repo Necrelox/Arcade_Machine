@@ -1,0 +1,7 @@
+<map id="SDL" name="SDL">
+<area shape="rect" id="node1" title="Contain all graphic function." alt="" coords="243,80,289,107"/>
+<area shape="rect" id="node2" href="$class_i_graphic.html" title="Interface of graphical class." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node3" href="$class_component_window.html" title="Contain window." alt="" coords="106,5,255,32"/>
+<area shape="rect" id="node4" href="$class_component_render.html" title="Contain render." alt="" coords="280,5,423,32"/>
+<area shape="rect" id="node5" href="$class_component_event.html" title="contain an events like close window or other" alt="" coords="447,5,581,32"/>
+</map>

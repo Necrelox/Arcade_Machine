@@ -1,0 +1,10 @@
+<map id="include/core/class/Core_Class_filehandle.hpp" name="include/core/class/Core_Class_filehandle.hpp">
+<area shape="rect" id="node1" title="Contain a handle class of library." alt="" coords="292,5,489,47"/>
+<area shape="rect" id="node2" href="$_lib___handle_8cpp.html" title=" " alt="" coords="5,102,181,143"/>
+<area shape="rect" id="node3" href="$open__get__class__lib_8cpp.html" title=" " alt="" coords="206,95,383,151"/>
+<area shape="rect" id="node4" href="$verif__lib_8cpp.html" title=" " alt="" coords="408,102,565,143"/>
+<area shape="rect" id="node5" href="$_core___class__core_8hpp.html" title="Core of Arcade, content pointer of lib graphic and lib game." alt="" coords="590,102,751,143"/>
+<area shape="rect" id="node6" href="$core_8cpp.html" title=" " alt="" coords="374,206,557,233"/>
+<area shape="rect" id="node7" href="$core__event__handler_8cpp.html" title=" " alt="" coords="581,199,761,240"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="entry point of ARCADE MACHINE" alt="" coords="785,206,973,233"/>
+</map>

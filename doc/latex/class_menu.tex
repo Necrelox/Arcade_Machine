@@ -1,0 +1,204 @@
+\hypertarget{class_menu}{}\doxysection{Menu Class Reference}
+\label{class_menu}\index{Menu@{Menu}}
+
+
+{\ttfamily \#include $<$Class\+\_\+\+Menu.\+hpp$>$}
+
+
+
+Inheritance diagram for Menu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_menu__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Menu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_menu__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_menu_ad466dd83355124a6ed958430450bfe94}{Menu}} ()
+\begin{DoxyCompactList}\small\item\em Constructor of child class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_menu_a831387f51358cfb88cd018e1777bc980}{$\sim$\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Destroy child class. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_menu_a57b3957b34df0693143c0f0656eaeb4c}{get\+\_\+name\+\_\+game}} () const override
+\begin{DoxyCompactList}\small\item\em Get Name of Game. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_scene}{Scene}} $\ast$ \mbox{\hyperlink{class_menu_a01e37a4fdeb8e12a52dcab05169e4667}{init\+\_\+scene}} () override
+\begin{DoxyCompactList}\small\item\em Initialize scene. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_scene}{Scene}} $\ast$ \mbox{\hyperlink{class_menu_a9d96029f6e416f2e67e53d63265a285d}{update\+\_\+scene}} (\mbox{\hyperlink{class_position}{Position}} $\ast$cursor, \mbox{\hyperlink{core__define_8hpp_a5a392548f2df67370cb15d2a5d75cd7b}{T\+Y\+PE}} \mbox{\hyperlink{core__define_8hpp_abeb73dfe8d6e8c280ebce28d84190c7e}{A\+C\+T\+I\+ON}}) override
+\begin{DoxyCompactList}\small\item\em Update the scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Class\+\_\+\+Menu.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_menu_ad466dd83355124a6ed958430450bfe94}\label{class_menu_ad466dd83355124a6ed958430450bfe94}} 
+\index{Menu@{Menu}!Menu@{Menu}}
+\index{Menu@{Menu}!Menu@{Menu}}
+\doxysubsubsection{\texorpdfstring{Menu()}{Menu()}}
+{\footnotesize\ttfamily Menu\+::\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor of child class. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Definition at line 20 of file menu.\+cpp.
+
+\mbox{\Hypertarget{class_menu_a831387f51358cfb88cd018e1777bc980}\label{class_menu_a831387f51358cfb88cd018e1777bc980}} 
+\index{Menu@{Menu}!````~Menu@{$\sim$Menu}}
+\index{````~Menu@{$\sim$Menu}!Menu@{Menu}}
+\doxysubsubsection{\texorpdfstring{$\sim$Menu()}{~Menu()}}
+{\footnotesize\ttfamily Menu\+::$\sim$\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy child class. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+Definition at line 25 of file menu.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_menu_a57b3957b34df0693143c0f0656eaeb4c}\label{class_menu_a57b3957b34df0693143c0f0656eaeb4c}} 
+\index{Menu@{Menu}!get\_name\_game@{get\_name\_game}}
+\index{get\_name\_game@{get\_name\_game}!Menu@{Menu}}
+\doxysubsubsection{\texorpdfstring{get\_name\_game()}{get\_name\_game()}}
+{\footnotesize\ttfamily std\+::string Menu\+::get\+\_\+name\+\_\+game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get Name of Game. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+Name of the Game 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_games_a12cfdfe4a474335f7613e41ca3d9f7ed}{I\+Games}}.
+
+
+
+Definition at line 10 of file menu.\+cpp.
+
+\mbox{\Hypertarget{class_menu_a01e37a4fdeb8e12a52dcab05169e4667}\label{class_menu_a01e37a4fdeb8e12a52dcab05169e4667}} 
+\index{Menu@{Menu}!init\_scene@{init\_scene}}
+\index{init\_scene@{init\_scene}!Menu@{Menu}}
+\doxysubsubsection{\texorpdfstring{init\_scene()}{init\_scene()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_scene}{Scene}} $\ast$ Menu\+::init\+\_\+scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Initialize scene. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_scene}{Scene}} $\ast$ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_games_a3a3c3f790d06aa6b84fd3a2330926629}{I\+Games}}.
+
+
+
+Definition at line 138 of file Menu\+\_\+scene.\+cpp.
+
+\mbox{\Hypertarget{class_menu_a9d96029f6e416f2e67e53d63265a285d}\label{class_menu_a9d96029f6e416f2e67e53d63265a285d}} 
+\index{Menu@{Menu}!update\_scene@{update\_scene}}
+\index{update\_scene@{update\_scene}!Menu@{Menu}}
+\doxysubsubsection{\texorpdfstring{update\_scene()}{update\_scene()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_scene}{Scene}} $\ast$ Menu\+::update\+\_\+scene (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_position}{Position}} $\ast$}]{cursor,  }\item[{\mbox{\hyperlink{core__define_8hpp_a5a392548f2df67370cb15d2a5d75cd7b}{T\+Y\+PE}}}]{A\+C\+T\+I\+ON }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Update the scene. 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em cursor} & position of cursor in window only with a window \\
+\hline
+\mbox{\texttt{ in,out}}  & {\em A\+C\+T\+I\+ON} & action in window\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_scene}{Scene}} $\ast$ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_i_games_ac3d7bd99718da9db3034980d99e99717}{I\+Games}}.
+
+
+
+Definition at line 146 of file Menu\+\_\+scene.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/game/menu/class/\mbox{\hyperlink{_class___menu_8hpp}{Class\+\_\+\+Menu.\+hpp}}\item 
+game/menu/src/animation/\mbox{\hyperlink{_menu__animation_8cpp}{Menu\+\_\+animation.\+cpp}}\item 
+game/menu/src/event/\mbox{\hyperlink{_menu___events_8cpp}{Menu\+\_\+\+Events.\+cpp}}\item 
+game/menu/src/\mbox{\hyperlink{menu_8cpp}{menu.\+cpp}}\item 
+game/menu/src/scene/\mbox{\hyperlink{_menu__scene_8cpp}{Menu\+\_\+scene.\+cpp}}\end{DoxyCompactItemize}

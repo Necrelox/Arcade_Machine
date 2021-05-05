@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,60,91"/>
+<area shape="rect" id="node2" href="$class_core.html#a291a600b5df0a6afbf9b656ac4ed92ea" title="Core of arcade machine with loop and switch library etc." alt="" coords="145,5,233,32"/>
+<area shape="rect" id="node3" href="$class_core___class__error.html#a4b388b65796547fcc4c3a8600b0420aa" title="Getter of error message." alt="" coords="108,57,269,98"/>
+<area shape="rect" id="node4" href="$class_core___class__error.html#a04f848c9d8af5ccdcda5a37b0f5efe1a" title="Getter of name file." alt="" coords="108,122,269,163"/>
+</map>

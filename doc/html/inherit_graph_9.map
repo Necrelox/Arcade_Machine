@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_position.html" title="contain x and y position of one element" alt="" coords="5,107,80,133"/>
+<area shape="rect" id="node2" href="$class_entity.html" title="contain all information of one element" alt="" coords="157,56,217,83"/>
+<area shape="rect" id="node3" href="$class_entity___graphic.html" title=" " alt="" coords="128,107,245,133"/>
+<area shape="rect" id="node4" href="$class_rect.html" title="contain width and height of rectangle and membre for animation using" alt="" coords="17,5,68,32"/>
+<area shape="rect" id="node5" href="$class_scale.html" title="contain x and y scale of one element" alt="" coords="14,56,71,83"/>
+</map>

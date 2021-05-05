@@ -1,0 +1,30 @@
+<map id="include/core/interfaces/IGraphic.hpp" name="include/core/interfaces/IGraphic.hpp">
+<area shape="rect" id="node1" title="Contain interface graphic." alt="" coords="1333,5,1504,47"/>
+<area shape="rect" id="node2" href="$_core___class__filehandle_8hpp.html" title="Contain a handle class of library." alt="" coords="388,95,585,136"/>
+<area shape="rect" id="node10" href="$_class___ncurse_8hpp.html" title=" " alt="" coords="1221,95,1400,136"/>
+<area shape="rect" id="node15" href="$_class___scene___s_d_l_8hpp.html" title=" " alt="" coords="1514,95,1718,136"/>
+<area shape="rect" id="node22" href="$_class___scene___s_f_m_l_8hpp.html" title="Contain scene graphic for render." alt="" coords="2111,95,2326,136"/>
+<area shape="rect" id="node3" href="$_lib___handle_8cpp.html" title=" " alt="" coords="5,191,181,233"/>
+<area shape="rect" id="node4" href="$open__get__class__lib_8cpp.html" title=" " alt="" coords="206,184,383,240"/>
+<area shape="rect" id="node5" href="$verif__lib_8cpp.html" title=" " alt="" coords="408,191,565,233"/>
+<area shape="rect" id="node6" href="$_core___class__core_8hpp.html" title="Core of Arcade, content pointer of lib graphic and lib game." alt="" coords="590,191,751,233"/>
+<area shape="rect" id="node7" href="$core_8cpp.html" title=" " alt="" coords="374,295,557,322"/>
+<area shape="rect" id="node8" href="$core__event__handler_8cpp.html" title=" " alt="" coords="581,288,761,329"/>
+<area shape="rect" id="node9" href="$main_8cpp.html" title="entry point of ARCADE MACHINE" alt="" coords="785,295,973,322"/>
+<area shape="rect" id="node11" href="$_n_curse__event__handle_8cpp.html" title=" " alt="" coords="776,191,971,233"/>
+<area shape="rect" id="node12" href="$_n_curse_8cpp.html" title=" " alt="" coords="995,199,1197,225"/>
+<area shape="rect" id="node13" href="$_n_curse___display_8cpp.html" title=" " alt="" coords="1221,191,1400,233"/>
+<area shape="rect" id="node14" href="$_n_curse__window_8cpp.html" title=" " alt="" coords="1424,191,1603,233"/>
+<area shape="rect" id="node16" href="$_class___s_d_l_8hpp.html" title=" " alt="" coords="1627,191,1786,233"/>
+<area shape="rect" id="node17" href="$_s_d_l__event__handle_8cpp.html" title=" " alt="" coords="1101,288,1275,329"/>
+<area shape="rect" id="node18" href="$_s_d_l_8cpp.html" title=" " alt="" coords="1299,295,1455,322"/>
+<area shape="rect" id="node19" href="$_s_d_l__scene_handle_8cpp.html" title=" " alt="" coords="1479,295,1726,322"/>
+<area shape="rect" id="node20" href="$_s_d_l___display_8cpp.html" title=" " alt="" coords="1749,288,1904,329"/>
+<area shape="rect" id="node21" href="$_s_d_l__window_8cpp.html" title=" " alt="" coords="1928,288,2083,329"/>
+<area shape="rect" id="node23" href="$_class___s_f_m_l_8hpp.html" title="Contain Ncurse Class." alt="" coords="2412,191,2580,233"/>
+<area shape="rect" id="node24" href="$_s_f_m_l__event__handle_8cpp.html" title=" " alt="" coords="2107,288,2290,329"/>
+<area shape="rect" id="node25" href="$_s_f_m_l_8cpp.html" title=" " alt="" coords="2315,295,2491,322"/>
+<area shape="rect" id="node26" href="$_s_f_m_l__scene_handle_8cpp.html" title=" " alt="" coords="2515,288,2664,329"/>
+<area shape="rect" id="node27" href="$_s_f_m_l__display_8cpp.html" title=" " alt="" coords="2689,288,2853,329"/>
+<area shape="rect" id="node28" href="$_s_f_m_l__window_8cpp.html" title=" " alt="" coords="2877,288,3041,329"/>
+</map>

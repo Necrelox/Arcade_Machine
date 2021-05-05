@@ -1,0 +1,13 @@
+<map id="include/graphics/sfml/class/Class_Scene_SFML.hpp" name="include/graphics/sfml/class/Class_Scene_SFML.hpp">
+<area shape="rect" id="node1" title="Contain scene graphic for render." alt="" coords="485,5,699,47"/>
+<area shape="rect" id="node2" href="$_i_graphic_8hpp.html" title="Contain interface graphic." alt="" coords="223,95,327,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="351,95,497,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="522,95,662,121"/>
+<area shape="rect" id="node10" title=" " alt="" coords="687,95,767,121"/>
+<area shape="rect" id="node11" title=" " alt="" coords="791,95,868,121"/>
+<area shape="rect" id="node3" href="$_class___scene_8hpp.html" title="Content scene core for a game." alt="" coords="209,169,340,196"/>
+<area shape="rect" id="node4" href="$core__define_8hpp.html" title=" " alt="" coords="5,244,131,271"/>
+<area shape="rect" id="node5" href="$core__event_8hpp.html" title=" " alt="" coords="155,244,277,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="302,244,365,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="389,244,448,271"/>
+</map>

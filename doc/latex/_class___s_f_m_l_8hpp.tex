@@ -1,0 +1,120 @@
+\hypertarget{_class___s_f_m_l_8hpp}{}\doxysection{include/graphics/sfml/class/\+Class\+\_\+\+S\+F\+ML.hpp File Reference}
+\label{_class___s_f_m_l_8hpp}\index{include/graphics/sfml/class/Class\_SFML.hpp@{include/graphics/sfml/class/Class\_SFML.hpp}}
+
+
+Contain Ncurse Class.  
+
+
+{\ttfamily \#include \char`\"{}Class\+\_\+\+Scene\+\_\+\+S\+F\+M\+L.\+hpp\char`\"{}}\newline
+Include dependency graph for Class\+\_\+\+S\+F\+M\+L.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_class___s_f_m_l_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_class___s_f_m_l_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_component_system}{Component\+System}}
+\begin{DoxyCompactList}\small\item\em Contain Clock and Time. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_component_window}{Component\+Window}}
+\begin{DoxyCompactList}\small\item\em Contain window. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_component_event}{Component\+Event}}
+\begin{DoxyCompactList}\small\item\em contain an events like close window or other \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_component_image}{Component\+Image}}
+\begin{DoxyCompactList}\small\item\em Contain Object Image. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_s_f_m_l}{S\+F\+ML}}
+\begin{DoxyCompactList}\small\item\em Contain all graphic function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_class___s_f_m_l_8hpp_a28a1a617f9ecf6cc3d878037035d6996}{D\+E\+P\+T\+H\+M\+AX}}(x,  list)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_graphic}{I\+Graphic}} $\ast$ \mbox{\hyperlink{_class___s_f_m_l_8hpp_a2b1bc1e9f4ef603e3be444faad1e5cff}{get\+\_\+graphical\+\_\+class}} ()
+\begin{DoxyCompactList}\small\item\em return a child class \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contain Ncurse Class. 
+
+Contain \mbox{\hyperlink{class_s_f_m_l}{S\+F\+ML}} Class and componant.
+
+\begin{DoxyAuthor}{Author}
+Nico 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_class___s_f_m_l_8hpp_a28a1a617f9ecf6cc3d878037035d6996}\label{_class___s_f_m_l_8hpp_a28a1a617f9ecf6cc3d878037035d6996}} 
+\index{Class\_SFML.hpp@{Class\_SFML.hpp}!DEPTHMAX@{DEPTHMAX}}
+\index{DEPTHMAX@{DEPTHMAX}!Class\_SFML.hpp@{Class\_SFML.hpp}}
+\doxysubsubsection{\texorpdfstring{DEPTHMAX}{DEPTHMAX}}
+{\footnotesize\ttfamily \#define D\+E\+P\+T\+H\+M\+AX(\begin{DoxyParamCaption}\item[{}]{x,  }\item[{}]{list }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{    \textcolor{keywordflow}{for} (\textcolor{keywordtype}{size\_t} i = 0; i < list.size() ;i++) \(\backslash\)}
+\DoxyCodeLine{    x <= list[i]-\/>depth ? x = list[i]-\/>depth: x;}
+
+\end{DoxyCode}
+
+
+Definition at line 21 of file Class\+\_\+\+S\+F\+M\+L.\+hpp.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_class___s_f_m_l_8hpp_a2b1bc1e9f4ef603e3be444faad1e5cff}\label{_class___s_f_m_l_8hpp_a2b1bc1e9f4ef603e3be444faad1e5cff}} 
+\index{Class\_SFML.hpp@{Class\_SFML.hpp}!get\_graphical\_class@{get\_graphical\_class}}
+\index{get\_graphical\_class@{get\_graphical\_class}!Class\_SFML.hpp@{Class\_SFML.hpp}}
+\doxysubsubsection{\texorpdfstring{get\_graphical\_class()}{get\_graphical\_class()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_graphic}{I\+Graphic}}$\ast$ get\+\_\+graphical\+\_\+class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+return a child class 
+
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+Child class
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Nico
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+31/03/21
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+2.\+0
+\end{DoxyVersion}
+\begin{DoxyReturn}{Returns}
+Child class 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file N\+Curse.\+cpp.
+

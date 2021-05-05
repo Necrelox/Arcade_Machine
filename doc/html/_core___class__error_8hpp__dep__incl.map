@@ -1,0 +1,10 @@
+<map id="include/core/class/Core_Class_error.hpp" name="include/core/class/Core_Class_error.hpp">
+<area shape="rect" id="node1" title="Class Error." alt="" coords="304,5,467,47"/>
+<area shape="rect" id="node2" href="$core__error__handle_8cpp.html" title=" " alt="" coords="5,102,176,143"/>
+<area shape="rect" id="node3" href="$open__get__class__lib_8cpp.html" title=" " alt="" coords="201,95,378,151"/>
+<area shape="rect" id="node4" href="$verif__lib_8cpp.html" title=" " alt="" coords="403,102,560,143"/>
+<area shape="rect" id="node5" href="$_core___class__core_8hpp.html" title="Core of Arcade, content pointer of lib graphic and lib game." alt="" coords="585,102,746,143"/>
+<area shape="rect" id="node6" href="$core_8cpp.html" title=" " alt="" coords="369,206,551,233"/>
+<area shape="rect" id="node7" href="$core__event__handler_8cpp.html" title=" " alt="" coords="575,199,755,240"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="entry point of ARCADE MACHINE" alt="" coords="779,206,967,233"/>
+</map>
